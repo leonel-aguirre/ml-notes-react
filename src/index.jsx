@@ -2,12 +2,7 @@ import "./index.scss"
 
 import React from "react"
 import { render } from "react-dom"
-import ReactMarkdown from "react-markdown"
-import remarkGfm from "remark-gfm"
 
-import mdText from "./test.md"
+import App from "./Components/App/App"
 
-render(
-  <ReactMarkdown remarkPlugins={[remarkGfm]}>{mdText}</ReactMarkdown>,
-  document.querySelector("#root")
-)
+render(<App />, document.querySelector("#root"))
