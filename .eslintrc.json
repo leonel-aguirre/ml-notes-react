@@ -9,7 +9,8 @@
   "rules": {
     "react/prop-types": "off",
     "react/react-in-jsx-scope": "off",
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "import/no-unresolved": "off"
   },
   "plugins": ["react", "import", "jsx-a11y"],
   "parserOptions": {

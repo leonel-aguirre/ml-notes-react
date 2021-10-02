@@ -1,0 +1,16 @@
+.nav-bar {
+  &__container {
+    background-color: #af125a;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__main-title {
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fffa;
+  }
+}
