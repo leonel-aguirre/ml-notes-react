@@ -1,1 +1,2 @@
-*{font-family:sans-serif}
+body{margin:0}*{font-family:sans-serif;box-sizing:border-box}
+.nav-bar__container{background-color:#af125a;padding:10px;display:flex;justify-content:center;align-items:center}.nav-bar__main-title{font-size:x-large;font-weight:bolder;text-decoration:none;color:#fffa}
