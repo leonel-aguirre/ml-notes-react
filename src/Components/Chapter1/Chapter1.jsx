@@ -1,11 +1,18 @@
-import React from "react"
-import ReactMarkdown from "react-markdown"
-import remarkGfm from "remark-gfm"
+import "./Chapter1.scss"
 
+import React from "react"
+
+import MarkdownRenderer from "../MarkdownRenderer/MarkdownRenderer"
 import content from "./content.md"
 
 const Chapter1 = () => {
-  return <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+  return (
+    <div className="chapter-1">
+      <div className="chapter-1__container">
+        <MarkdownRenderer>{content}</MarkdownRenderer>
+      </div>
+    </div>
+  )
 }
 
 export default Chapter1
