@@ -38,7 +38,6 @@
   },
   "dependencies": {
     "react": "^17.0.2",
-    "react-code-blocks": "*",
     "react-dom": "^17.0.2",
     "react-markdown": "^7.0.1",
     "remark-gfm": "^2.0.0"
