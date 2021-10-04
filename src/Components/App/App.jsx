@@ -1,5 +1,5 @@
 import React from "react"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { HashRouter as Router, Route, Switch } from "react-router-dom"
 
 import Chapter1 from "../Chapter1/Chapter1"
 import Home from "../Home/Home"
@@ -7,7 +7,7 @@ import NavBar from "../NavBar/NavBar"
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/">
       <NavBar />
       <Switch>
         <Route path="/chapter-1">
